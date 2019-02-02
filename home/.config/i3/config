@@ -189,7 +189,7 @@ bindsym $mod+o exec xcalib -i -a -o 1
 exec feh --bg-max ~/Pictures/ark_wall.jpg
 exec /usr/lib64/gnome-settings-daemon/gsd-xsettings
 exec i3lock -i ~/Pictures/ark_wall.png -c 000000
-exec xrandr --output eDP-1 --pos 0x530 --output HDMI-1 --pos 1366x0
+exec xrandr --output eDP-1 --pos 0x312 --output HDMI-1 --pos 1366x0
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #000000 #000000 #eeeeee #000000   #000000
