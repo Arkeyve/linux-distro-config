@@ -116,6 +116,10 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
+# move workspace to output
+bindsym $mod+Control+Left move workspace to output left
+bindsym $mod+Control+Right move workspace to output right
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -189,7 +193,7 @@ bindsym $mod+o exec xcalib -i -a -o 1
 exec feh --bg-max ~/Pictures/ark_wall.jpg
 exec /usr/lib64/gnome-settings-daemon/gsd-xsettings
 exec i3lock -i ~/Pictures/ark_wall.png -c 000000
-exec xrandr --output eDP-1 --pos 1920x312 --output HDMI-1 --pos 0x0
+exec xrandr --output HDMI-1 --pos 0x0 --primary --output eDP-1 --pos 1920x312
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #000000 #000000 #eeeeee #000000   #000000
