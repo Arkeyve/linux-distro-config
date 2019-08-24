@@ -190,11 +190,14 @@ bindsym $mod+Shift+x exec i3lock -c 000000
 bindsym $mod+i exec xcalib -i -a -o 0
 bindsym $mod+o exec xcalib -i -a -o 1
 
+# launch onboard
+bindsym Mod1+k exec onboard
+
 # exec feh --bg-max ~/Pictures/ark_wall.jpg
 exec --no-startup-id nitrogen --restore
 exec /usr/lib64/gnome-settings-daemon/gsd-xsettings
 exec i3lock -c 000000
-exec xrandr --output HDMI-1 --pos 0x0 --primary --output eDP-1 --pos 1920x312
+exec xrandr --output HDMI-1 --pos 1366x312 --primary --output eDP-1 --pos 0x0
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #000000 #000000 #eeeeee #000000   #000000
