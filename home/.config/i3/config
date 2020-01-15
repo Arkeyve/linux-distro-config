@@ -180,9 +180,6 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
 bindsym XF86AuidoMute exec pactl set-sink-mute 0 toggle
 
-# Turn keyboard lights on
-bindsym $mod+x exec xset led named "Scroll Lock"
-
 # Lockscreen
 bindsym $mod+Shift+x exec i3lock -c 000000
 
@@ -197,7 +194,8 @@ bindsym Mod1+k exec onboard
 exec --no-startup-id nitrogen --restore
 exec /usr/lib64/gnome-settings-daemon/gsd-xsettings
 exec i3lock -c 000000
-exec xrandr --output HDMI-1 --pos 1366x312 --primary --output eDP-1 --pos 0x0
+exec xrandr --output HDMI1 --pos 1366x312 --mode 1920x1080 --primary
+exec xrandr --output eDP-1 --pos 0x0 --mode 1366x768
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #000000 #000000 #eeeeee #000000   #000000
