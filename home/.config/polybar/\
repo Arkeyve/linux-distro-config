@@ -15,8 +15,8 @@ foreground = ${colors.foreground}
 line-size = 1
 font-0 = monospace:pixelsize=8;1
 
-modules-left = i3
-modules-right = date
+modules-left = i3 alsa
+modules-right = date alsa
 
 [module/date]
 type = internal/date
