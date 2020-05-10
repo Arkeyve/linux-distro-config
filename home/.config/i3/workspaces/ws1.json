@@ -13,8 +13,7 @@
     "swallows": [
        {
           "class": "^TelegramDesktop$",
-          "instance": "^telegram\\-desktop$",
-          "title": "^Telegram\\ \\(17709\\)$"
+          "instance": "^telegram\\-desktop$"
        }
     ],
     "type": "con"
@@ -43,9 +42,7 @@
             "swallows": [
                {
                   "class": "^Trello$",
-                  "instance": "^trello$",
-                  "title": "^Boards\\ \\|\\ Trello$",
-                  "window_role": "^browser\\-window$"
+                  "instance": "^trello$"
                }
             ],
             "type": "con"
@@ -65,9 +62,7 @@
             "swallows": [
                {
                   "class": "^Slack$",
-                  "instance": "^slack$",
-                  "title": "^Slack\\ \\|\\ Google\\ Calendar\\ \\|\\ personal\\ \\|\\ 1\\ new\\ item$",
-                  "window_role": "^browser\\-window$"
+                  "instance": "^slack$"
                }
             ],
             "type": "con"
@@ -87,8 +82,7 @@
             "swallows": [
                {
                   "class": "^Spotify$",
-                  "instance": "^spotify$",
-                  "title": "^Spotify\\ Premium$"
+                  "instance": "^spotify$"
                }
             ],
             "type": "con"
