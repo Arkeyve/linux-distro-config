@@ -1,0 +1,98 @@
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 745,
+       "width": 406,
+       "x": 2,
+       "y": 4
+    },
+    "name": "Telegram (17709)",
+    "percent": 0.3,
+    "swallows": [
+       {
+          "class": "^TelegramDesktop$",
+          "instance": "^telegram\\-desktop$",
+          "title": "^Telegram\\ \\(17709\\)$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    //   tabbed split container with 3 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "tabbed",
+    "percent": 0.7,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1027,
+               "width": 500,
+               "x": 1848,
+               "y": 802
+            },
+            "name": "Boards | Trello",
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+                  "class": "^Trello$",
+                  "instance": "^trello$",
+                  "title": "^Boards\\ \\|\\ Trello$",
+                  "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 737,
+               "width": 633,
+               "x": 731,
+               "y": 12
+            },
+            "name": "Slack | Google Calendar | personal | 1 new item",
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+                  "class": "^Slack$",
+                  "instance": "^slack$",
+                  "title": "^Slack\\ \\|\\ Google\\ Calendar\\ \\|\\ personal\\ \\|\\ 1\\ new\\ item$",
+                  "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 600,
+               "width": 800,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Spotify Premium",
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+                  "class": "^Spotify$",
+                  "instance": "^spotify$",
+                  "title": "^Spotify\\ Premium$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

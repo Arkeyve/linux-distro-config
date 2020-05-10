@@ -183,11 +183,15 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
 bindsym XF86AuidoMute exec pactl set-sink-mute 0 toggle
 
 # Lockscreen
-bindsym $mod+Shift+x exec i3lock -c 000000
+bindsym $mod+Shift+x exec i3lock -c 000000 -k --timecolor=ffffffff --datecolor=eeeeeeff --ringcolor=333333ff --insidevercolor=00000000 --insidewrongcolor=00000000
 
 # invert screen color
 bindsym $mod+i exec xcalib -i -a -o 0
 bindsym $mod+o exec xcalib -i -a -o 1
+
+# custom workspaces
+## open workspace 1 [telegram][trello, slack, spotify]
+bindsym $mod+Control+1 exec --no-startup-id "i3-msg 'workspace 1; append_layout ~/.config/i3/workspaces/ws1.json' && slack & telegram-desktop & trello & spotify &"
 
 # launch onboard
 bindsym Mod1+k exec onboard
@@ -196,7 +200,7 @@ bindsym Mod1+k exec onboard
 # exec --no-startup-id nitrogen --restore
 exec /usr/lib64/gnome-settings-daemon/gsd-xsettings
 exec i3lock -c 000000
-exec xrandr --output HDMI1 --pos 1366x768 --mode 1920x1080 --primary
+exec xrandr --output HDMI1 --pos 1366x760 --mode 1920x1080 --primary
 exec xrandr --output eDP-1 --pos 0x0 --mode 1366x768
 
 # class                 border  backgr. text    indicator child_border
