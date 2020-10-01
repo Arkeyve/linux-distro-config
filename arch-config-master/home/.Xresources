@@ -1,0 +1,33 @@
+URxvt.font: xft:monospace:size=9.5
+URxvt.letterSpace: -1
+URxvt.scrollBar: false
+
+urxvt*foreground: white
+urxvt*background: black
+
+*background:  #000000
+*foreground:  #eeeeee
+*color0:  #303030
+*color1:  #ff0000
+*color2:  #00ff00
+*color3:  #ffff00
+*color4:  #0000ff
+*color5:  #ff00ff
+*color6:  #00ffff
+*color7:  #eeeeee
+*color8:  #303030
+*color9:  #ff2222
+*color10:  #00ff00
+*color11:  #ffff00
+*color12:  #0077ff
+*color13:  #ff00ff
+*color14:  #00ffff
+*color15:  #eeeeee
+
+Xft.dpi: 92
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xfft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
