@@ -9,7 +9,7 @@
        "y": 4
     },
     "name": "Telegram (17709)",
-    "percent": 0.3,
+    "percent": 0.2,
     "swallows": [
        {
           "class": "^TelegramDesktop$",
@@ -24,7 +24,7 @@
     "border": "normal",
     "floating": "auto_off",
     "layout": "tabbed",
-    "percent": 0.7,
+    "percent": 0.8,
     "type": "con",
     "nodes": [
         {
@@ -38,7 +38,7 @@
                "y": 802
             },
             "name": "Notion",
-            "percent": 0.333333333333333,
+            "percent": 0.5,
             "swallows": [
                {
                   "class": "Notion$",
@@ -58,7 +58,7 @@
                "y": 0
             },
             "name": "Spotify Premium",
-            "percent": 0.333333333333333,
+            "percent": 0.5,
             "swallows": [
                {
                   "class": "^Spotify$",

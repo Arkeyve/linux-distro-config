@@ -201,9 +201,9 @@ bindsym Mod1+k exec onboard
 # exec feh --bg-max ~/Pictures/ark_wall.jpg
 # exec --no-startup-id nitrogen --restore
 exec /usr/lib64/gnome-settings-daemon/gsd-xsettings
-exec i3lock -c 000000 -k --timecolor=ffffffff --datecolor=eeeeeeff --ringcolor=333333ff --insidevercolor=00000000 --insidewrongcolor=00000000
-exec xrandr --output HDMI-0 --pos 1920x0 --mode 1920x1080 --primary
-exec xrandr --output eDP-1-0 --pos 0x0 --mode 1920x1080
+# exec i3lock -c 000000 -k --timecolor=ffffffff --datecolor=eeeeeeff --ringcolor=333333ff --insidevercolor=00000000 --insidewrongcolor=00000000
+exec xrandr --output eDP-1-0 --pos 1920x0 --mode 1920x1080 --primary
+exec xrandr --output HDMI-0 --pos 0x0 --mode 1920x1080
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #000000 #999999 #eeeeee #000000   #000000
