@@ -120,6 +120,8 @@ bindsym $mod+Shift+0 move container to workspace 10
 # move workspace to output
 bindsym $mod+Control+Left move workspace to output left
 bindsym $mod+Control+Right move workspace to output right
+bindsym $mod+Control+Up move workspace to output up
+bindsym $mod+Control+Down move workspace to output down
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -199,10 +201,10 @@ bindsym $mod+Control+1 exec --no-startup-id "i3-msg 'workspace 1; append_layout 
 bindsym Mod1+k exec onboard
 
 # exec feh --bg-max ~/Pictures/ark_wall.jpg
-# exec --no-startup-id nitrogen --restore
+exec --no-startup-id nitrogen --restore
 exec /usr/lib64/gnome-settings-daemon/gsd-xsettings
 # exec i3lock -c 000000 -k --timecolor=ffffffff --datecolor=eeeeeeff --ringcolor=333333ff --insidevercolor=00000000 --insidewrongcolor=00000000
-exec xrandr --output eDP-1-0 --pos 1920x0 --mode 1920x1080 --primary
+exec xrandr --output eDP-1-0 --pos 0x1080 --mode 1920x1080 --primary
 exec xrandr --output HDMI-0 --pos 0x0 --mode 1920x1080
 
 # class                 border  backgr. text    indicator child_border
