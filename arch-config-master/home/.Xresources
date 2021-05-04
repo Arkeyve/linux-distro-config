@@ -1,4 +1,4 @@
-URxvt.font: xft:monospace:size=9.5
+URxvt.font: xft:Roboto Mono:size=9
 URxvt.letterSpace: -1
 URxvt.scrollBar: false
 
