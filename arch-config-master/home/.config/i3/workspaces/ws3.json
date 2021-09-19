@@ -10,12 +10,12 @@
        "y": 4
     },
     "marks": [],
-    "name": "Job Applications",
-    "percent": 0.5,
+    //"name": "Job Applications",
+    "percent": 0.7,
     "swallows": [
        {
-        "class": "^Notion$",
-        "instance": "^notion$"
+        "class": "^Google\\-chrome$",
+        "instance": "^notion.so$"
        }
     ],
     "type": "con"
@@ -27,7 +27,7 @@
     "floating": "auto_off",
     "layout": "splith",
     "marks": [],
-    "percent": 0.5,
+    "percent": 0.3,
     "type": "con",
     "nodes": [
         {
