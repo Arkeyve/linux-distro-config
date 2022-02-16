@@ -235,7 +235,7 @@ bindsym $mod+o exec xcalib -i -a -o 1
 
 # custom workspaces
 ## open workspace 1 [telegram][trello, slack, spotify]
-bindsym $mod+Control+1 exec --no-startup-id "i3-msg 'workspace 1; append_layout ~/.config/i3/workspaces/ws3.json' && telegram-desktop & google-chrome-stable --app=https://notion.so & spotify &"
+bindsym $mod+Control+1 exec --no-startup-id "i3-msg 'workspace 2; append_layout ~/.config/i3/workspaces/ws3.json' && telegram-desktop & google-chrome-stable --app=https://notion.so & spotify &"
 
 # launch onboard
 bindsym Mod1+k exec onboard
@@ -256,4 +256,4 @@ client.urgent           #900000 #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 client.background       #ffffff
 
-exec --no-startup-id nitrogen --restore
+exec nitrogen --restore
