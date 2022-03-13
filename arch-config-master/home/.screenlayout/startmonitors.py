@@ -14,3 +14,5 @@ elif hdmi_discon == '0' and dp_discon != '0':
     os.system('sh ~/.screenlayout/Llg_Rlaptop.sh')
 else:
     os.system('sh ~/.screenlayout/Olaptop.sh')
+
+os.system('nitrogen --restore')
