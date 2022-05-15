@@ -259,3 +259,4 @@ client.background       #ffffff
 
 # picom
 exec picom --config ~/.config/picom/picom.conf
+exec echo 0 | tee /sys/module/hid_apple/parameters/fnmode
