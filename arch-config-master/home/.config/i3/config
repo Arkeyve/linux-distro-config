@@ -168,7 +168,7 @@ bar {
 	output eDP-1-0
 	tray_output primary
 	status_command i3status
-	font xft:Roboto Mono 9
+	font xft:Fira Code 9
 	wheel_up_cmd nop
 	wheel_down_cmd nop
 	colors {
@@ -185,7 +185,7 @@ bar {
 	output HDMI-0
 	tray_output primary
 	status_command i3status -c /home/leaf/.config/i3/i3status.conf
-	font xft:Roboto Mono 9
+	font xft:Fira Code 9
 	wheel_up_cmd nop
 	wheel_down_cmd nop
 	colors {
@@ -203,7 +203,7 @@ bar {
 	output DP-2
 	tray_output primary
 	status_command i3status
-	font xft:Roboto Mono 9
+	font xft:Fira Code 9
 	wheel_up_cmd nop
 	wheel_down_cmd nop
 	colors {

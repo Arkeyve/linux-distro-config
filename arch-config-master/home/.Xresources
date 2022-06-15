@@ -1,4 +1,4 @@
-URxvt.font: xft:Roboto Mono:size=9
+URxvt.font: xft:Fira Code:size=10
 URxvt.letterSpace: -1
 URxvt.scrollBar: false
 
