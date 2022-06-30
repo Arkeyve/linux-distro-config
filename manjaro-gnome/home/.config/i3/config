@@ -300,6 +300,9 @@ exec python ~/.screenlayout/startmonitors.py
 # enable tap-to-click on synaptics touchpad
 exec xinput set-prop "SYNA32A5:00 06CB:CE17 Touchpad" "libinput Tapping Enabled" 1
 
+# enable fn keys on keychron keyboard
+exec echo 0 | tee /sys/module/hid_apple/parameters/fnmode
+
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
 # https://i3wm.org/docs/userguide.html#xresources
@@ -338,7 +341,7 @@ bar {
 	position bottom
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
-#	tray_output primary
+	tray_output primary
 #	tray_output eDP1
 
 	bindsym button4 nop
