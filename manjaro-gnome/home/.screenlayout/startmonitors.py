@@ -10,8 +10,8 @@ print(dp_discon)
 
 if hdmi_discon == '0' and dp_discon == '0':
     os.system('sh ~/.screenlayout/m27q_lgP_edp.sh')
-#elif hdmi_discon == '0' and dp_discon != '0':
-#    os.system('sh ~/.screenlayout/Llg_Rlaptop.sh')
+elif hdmi_discon != '0' and dp_discon == '0':
+    os.system('sh ~/.screenlayout/m27q_edp.sh')
 else:
     os.system('sh ~/.screenlayout/Olaptop.sh')
 
